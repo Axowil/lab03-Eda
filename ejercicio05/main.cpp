@@ -9,7 +9,7 @@ int main() {
         if(arr[i] > max)
             max = arr[i];
 
-    cout << "Mayor: " << max;
+    cout << "Mayor: " << max << endl;
 
     delete[] arr;
     return 0;

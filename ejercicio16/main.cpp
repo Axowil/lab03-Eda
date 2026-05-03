@@ -7,7 +7,7 @@ int main() {
     vector<int> b = a;
 
     for(int x : b)
-        cout << x << " ";
+        cout << x << " " << endl;
 
     return 0;
 }

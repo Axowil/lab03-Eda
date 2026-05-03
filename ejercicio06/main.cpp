@@ -13,6 +13,7 @@ int main() {
 
     delete[] a;
     delete[] b;
+    cout << "" << endl;
     return 0;
 }
 

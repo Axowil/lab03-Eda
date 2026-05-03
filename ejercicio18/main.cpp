@@ -7,7 +7,8 @@ int main() {
 
     for(double x : arr)
         cout << x << " ";
-
+        
+    cout<< "" << endl;
     return 0;
 }
 

@@ -10,6 +10,7 @@ int main() {
     delete[] arr;
     arr = nullptr; // evitar puntero colgante
 
+    cout << "" << endl ;
     return 0;
 }
 

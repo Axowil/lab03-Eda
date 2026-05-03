@@ -8,7 +8,7 @@ int main() {
     for(int i = 0; i < 4; i++)
         suma += arr[i];
 
-    cout << "Suma: " << suma;
+    cout << "Suma: " << suma << endl;
 
     delete[] arr;
     return 0;

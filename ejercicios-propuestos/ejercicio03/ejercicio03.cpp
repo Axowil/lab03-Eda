@@ -7,7 +7,7 @@ int main(){
 
     int i = 0 ;
     while (i<5){
-        arr[i] = i=1;
+        arr[i] = i + 1;
         i++;
     }
     
@@ -18,7 +18,8 @@ int main(){
         cout << arr[j] << " ";
         j++;
     }
-    delete arr;
+    delete[] arr;
+    cout <<""<< endl;
     return 0;
     
 }
